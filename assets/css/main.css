@@ -1449,6 +1449,9 @@ section,
 /*--------------------------------------------------------------
 # Team Section
 --------------------------------------------------------------*/
+#team {
+  display: none;
+}
 .team .team-member {
   background-color: var(--surface-color);
   overflow: hidden;
