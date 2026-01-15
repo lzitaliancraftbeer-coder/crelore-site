@@ -220,13 +220,4 @@
 
   // ... tutto il codice del template
 
-  /**
-   * FAQ Toggle
-   */
-  document.querySelectorAll('.faq-item h3, .faq-item .faq-toggle').forEach((el) => {
-    el.addEventListener('click', () => {
-      el.parentElement.classList.toggle('faq-active');
-    });
-  });
-
 })();
