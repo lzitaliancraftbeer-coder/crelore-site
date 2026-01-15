@@ -1,23 +1,3 @@
-‎assets/img/testimonials/testimonials-3.jpg‎
-16.8 KB
-
-
-
-‎assets/img/testimonials/testimonials-4.jpg‎
-19.7 KB
-
-
-
-‎assets/img/testimonials/testimonials-5.jpg‎
-22.1 KB
-
-
-
-‎assets/js/main.js‎
-+218
-Lines changed: 218 additions & 0 deletions
-Original file line number	Diff line number	Diff line change
-@@ -0,0 +1,218 @@
 /**
 * Template Name: OnePage
 * Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
