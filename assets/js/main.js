@@ -215,4 +215,20 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+(function () {
+  "use strict";
+
+  // ... tutto il codice del template
+
+  /**
+   * FAQ Toggle
+   */
+  document.querySelectorAll('.faq-item h3, .faq-item .faq-toggle').forEach((el) => {
+    el.addEventListener('click', () => {
+      el.parentElement.classList.toggle('faq-active');
+    });
+  });
+
+})();
+
 })();
