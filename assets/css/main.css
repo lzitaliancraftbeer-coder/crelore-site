@@ -2041,6 +2041,10 @@ section,
   color: var(--accent-color);
 }
 
+.service-details .service-item {
+  margin-bottom: 80px;
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
