@@ -79,6 +79,13 @@ body {
   background-position: center;
 }
 
+.section,
+.page-title,
+.hero,
+.light-backgroud {
+  background-color: rgba(255, 255, 255, 0.92);
+}
+
 a {
   color: var(--accent-color);
   text-decoration: none;
