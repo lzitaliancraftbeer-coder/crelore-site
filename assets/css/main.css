@@ -70,6 +70,9 @@
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
 body {
+  background: red !important;
+}
+
   color: var(--default-color);
   font-family: var(--default-font);
   background-image: url("/crelore-site/assets/img/background-crelore.png");
