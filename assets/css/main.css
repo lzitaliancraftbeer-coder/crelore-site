@@ -2057,6 +2057,19 @@ section,
   margin-bottom: 10px;
 }
 
+/* Service Detail – sfondo pulito (override vetro) */
+.service-details {
+  background-color: #ffffff;
+}
+
+.service-details section,
+.service-details .section,
+.service-details .service-item {
+  background-color: #ffffff;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
