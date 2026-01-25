@@ -73,7 +73,7 @@ body {
   color: var(--default-color);
   font-family: var(--default-font);
 
-  background-image: url("/crelore-site/assets/img/background-crelore.png");
+  background-image: url("/crelore-site/assets/img/sfondo_crelore.jpg");
   background-repeat: repeat;
   background-size: cover;
   background-attachment: fixed;
