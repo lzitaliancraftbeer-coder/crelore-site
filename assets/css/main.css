@@ -2066,8 +2066,6 @@ section,
 .service-details .section,
 .service-details .service-item {
   background-color: rgba(0, 0, 0, .80);
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
 }
 
 /*--------------------------------------------------------------
