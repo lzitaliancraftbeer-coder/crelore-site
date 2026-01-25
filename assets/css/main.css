@@ -2065,7 +2065,7 @@ section,
 .service-details section,
 .service-details .section,
 .service-details .service-item {
-  background-color: #ffffff;
+  background-color: #ffffe6;
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
