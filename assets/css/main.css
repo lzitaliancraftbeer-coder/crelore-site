@@ -2059,7 +2059,7 @@ section,
 
 /* Service Detail – sfondo pulito (override vetro) */
 .service-details {
-  background-color: #ffffff70;
+  background-color: rgba(0, 0, 0, .04);
 }
 
 .service-details section,
