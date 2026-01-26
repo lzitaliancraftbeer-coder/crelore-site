@@ -82,7 +82,7 @@ body {
 
 .section,
 .page-title {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 a {
@@ -792,7 +792,7 @@ h6 {
 section,
 .section {
   color: var(--default-color);
-  background-color: #ffffffe6;
+  background-color: #ffffff;
   padding: 60px 0;
   scroll-margin-top: 100px;
   overflow: clip;
@@ -842,7 +842,7 @@ section,
 
 .hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(255, 255, 255, 1);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -2057,13 +2057,13 @@ section,
 
 /* Service Detail – sfondo pulito (override vetro) */
 .service-details {
-  background-color: #ffffffe6;
+  background-color: #ffffff;
 }
 
 .service-details section,
 .service-details .section,
 .service-details .service-item {
-  background-color: #ffffffde
+  background-color: #ffffff;
 }
 
 /*--------------------------------------------------------------
