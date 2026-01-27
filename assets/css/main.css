@@ -2066,6 +2066,60 @@ section,
   background-color: #ffffff
 }
 
+/* =========================
+   Crelore Animations
+========================= */
+
+/* Scroll reveal */
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scroll-reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Button hover */
+.btn-get-started {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-get-started:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(36, 135, 206, 0.35);
+}
+
+/* Icon box hover */
+.icon-box {
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(36, 135, 206, 0.25);
+}
+
+/* Gradient border effect */
+.icon-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  padding: 2px;
+  background: linear-gradient(135deg, var(--accent-color), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.icon-box:hover::before {
+  opacity: 1;
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
