@@ -36,6 +36,23 @@
   ======================================================== -->
 </head>
 
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const elements = document.querySelectorAll(".scroll-reveal");
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("active");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    elements.forEach(el => observer.observe(el));
+  });
+</script>
+
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center sticky-top">
