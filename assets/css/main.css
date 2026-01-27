@@ -2120,6 +2120,26 @@ section,
   opacity: 1;
 }
 
+/* Sezione CRELORE */
+.crelore-section img {
+  max-width: 90%;
+  height: auto;
+}
+
+/* Spaziatura migliore su desktop */
+@media (min-width: 992px) {
+  .crelore-section {
+    padding: 80px 0;
+  }
+}
+
+/* Mobile: aria e respiro */
+@media (max-width: 768px) {
+  .crelore-section img {
+    margin-top: 30px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
