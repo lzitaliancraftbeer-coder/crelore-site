@@ -215,4 +215,21 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+// Scroll reveal per HERO e altre sezioni
+document.addEventListener("DOMContentLoaded", () => {
+  const elements = document.querySelectorAll(".scroll-reveal");
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+        observer.unobserve(entry.target); // trigger una volta sola
+      }
+    });
+  }, { threshold: 0.15 });
+
+  elements.forEach(el => observer.observe(el));
+});
+
+  
 })();
